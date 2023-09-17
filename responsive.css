@@ -1,0 +1,218 @@
+/* Navigation  */
+@media screen and (max-width: 250px){
+
+#navbar{
+	flex-direction:column;
+	height: 210px;
+}
+
+#navbar ul {
+  flex-direction: column;
+}
+
+#logo_box {
+  width: 31vh;
+  margin: auto;
+}
+
+.logo img {
+ margin-top: 32px;
+height: 30px;
+}
+
+#navbar ul li a {
+  font-size: 1rem;
+  padding: 0px 7px;
+  text-align: center;
+}
+
+#home::before {
+  height: 630px;
+}
+
+#home h1 {
+  font-size: 31px;
+}
+
+#services{
+	flex-direction:column;
+}
+
+.video_box {
+  width: 80%;
+height: 150px;
+}
+
+.h-primary {
+  font-size: 30px;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+#home div {
+font-size: 18px;
+}
+
+#navbar ul li {
+  margin: 3px auto;
+}
+
+#contact-box form {
+  width: 95%;
+}
+
+#contact-box label {
+  font-size: 16px;
+}
+
+}
+
+
+
+@media screen and (min-width: 250px) and (max-width: 455px){
+
+#navbar{
+	flex-direction:column;
+	height: 150px;
+}
+
+#navbar ul li a{
+	font-size:1rem;
+	padding:0px 7px;
+}
+
+#home h1 {
+  font-size: 31px;
+}
+
+#services{
+	flex-direction:column;
+}
+
+ .video_box{
+	width: 89%;
+}
+
+.h-primary {
+  font-size: 255%;
+  padding: 12px;
+}
+
+#home div {
+  font-size: 1.5rem;
+}
+}
+
+
+
+@media screen and (min-width: 455px) and (max-width: 570px){
+
+#navbar{
+	flex-direction:column;
+	height: 150px;
+}
+
+#navbar ul li a{
+	font-size:1rem;
+	padding:0px 7px;
+}
+/* Home Section*/
+#home{
+	height:370px;
+	padding:3px 68px;
+}
+
+#home::before{
+	height:480px;
+}
+
+/* Services Section */
+#services{
+	flex-direction:column;
+}
+
+ .video_box{
+width: 44%;
+height: 270px;
+}
+
+.box{
+	width: 89%;
+}
+
+/* Utility Classes */
+.h-primary{
+	font-size:35px;
+}
+
+#contact-box form {
+  width: 90%;
+}
+
+}
+
+
+@media (min-width: 570px) and (max-width: 835px){
+
+/* Services Section */
+ .video_box{
+	width: 45%;
+	height: 285px;
+}
+#services{
+	flex-direction:column;
+	align-items: center;
+	width: 100%;
+}
+/* Client Section */
+
+.h-primary {
+  font-size: 2.8rem;
+}
+
+}
+
+
+@media screen and (min-width: 250px) and (max-width: 870px){
+
+#logo_box{
+/* width: 32%; */
+ width: 31vh;
+margin: auto;
+}
+
+#navbar{
+	flex-direction:column;
+	height: 265px;
+}
+
+#navbar ul {
+  flex-direction: row;
+}
+
+#navbar ul li a {
+  font-size: 3.1vh;
+  padding: 0px 7px;
+  text-align: center;
+}
+
+
+#home div {
+font-size: 18px;
+}
+
+#navbar ul li {
+  margin: 3px auto;
+}
+}
+
+
+
+
+@media screen and (min-width: 20px) and (max-width: 900px){
+
+#navbar{
+  justify-content: center;
+}
+}
+
