@@ -160,6 +160,11 @@ font-weight: bold;
 	
 }
 
+.services-container{
+	background-color:black;
+	color:white;
+}
+
 .center{
 	text-align:center;
 }
